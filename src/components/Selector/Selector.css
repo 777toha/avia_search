@@ -1,0 +1,11 @@
+.selector{
+    width: 199px;
+}
+
+.selector__carrier{
+    display: flex;
+    flex-direction: column;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}

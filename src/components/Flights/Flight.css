@@ -1,0 +1,111 @@
+.flight__page{
+    display: flex;
+    flex-direction: column;
+}
+
+.flight__page-button{
+    padding: 15px;
+    text-align: center;
+    font-size: 32px;
+    border: none;
+    border-radius: 10px;
+    background-color: green;
+    cursor: pointer;
+    min-width: 400px;
+    margin: 0 auto;
+}
+
+.flight{
+    margin-left: 25px;
+    width: 800px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.flight__header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(36, 131, 255);
+    color: white;
+}
+
+.flight__header-right{
+    padding: 10px;
+}
+
+.flight__header-left{
+    text-align: right;
+    margin: auto 0;
+}
+
+.flight__header-span{
+    font-size: 12px;
+}
+
+.flight__direction{
+    padding: 10px 15px;
+    border-bottom: 1px solid rgb(207, 207, 207);
+    display: flex;
+}
+
+.flight__container{
+    padding: 10px 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.flight__data{
+    display: flex;
+    flex-direction: row;
+}
+
+.flight__data p{
+    margin-right: 5px;
+}
+
+.flight__data:last-child{
+    flex-direction: row-reverse;
+}
+
+.flight__stops {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.flight__stops::before,
+.flight__stops::after {
+    content: '';
+    flex: 1;
+    border-bottom: 1px solid #ccc;
+}
+
+.flight__stops span {
+    padding: 0 10px;
+    font-weight: bold;
+    color: #f86262;
+}
+
+.flight__carrier{
+    padding: 10px 15px;
+}
+
+.flight__button{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #ff9955;
+    color: white;
+}
+
+.flight__line{
+border-bottom: 2px solid blue;
+}
+
+.flight__line:last-of-type{
+    border: none;
+}
